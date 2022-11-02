@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 14px;
+  }
+}
+
+input {
+  max-width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: auto;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(127, 255, 127);
+}

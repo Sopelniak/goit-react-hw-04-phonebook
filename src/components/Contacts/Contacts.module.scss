@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-item div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.btn-delete {
+  background-color: rgb(255, 149, 149);
+}
